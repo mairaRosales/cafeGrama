@@ -64,28 +64,28 @@ body{
 	opacity: 0;
 }
 .img1{
-	background-image: url(../images/slideshow/image1.jpeg);
+	background-image: url(../images/people/libr.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:center;
 	animation: disolveRound 20s linear infinite;
 }
 .img2{
-	background-image: url(../images/slideshow/image2.jpg);
+	background-image: url(../images/people/untitled.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:center;
 	animation: disolveRound 20s linear infinite 5s;
 }
 .img3{
-	background-image: url(../images/slideshow/image3.jpeg);
+	background-image: url(../images/people/topview.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:center;
 	animation: disolveRound 20s linear infinite 10s;
 }
 .img4{
-	background-image: url(../images/slideshow/image5.jpg);
+	background-image: url(../images/people/island.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:center;
