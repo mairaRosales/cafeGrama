@@ -67,7 +67,7 @@ body{
 	background-image: url(../images/people/libr.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position:center;
+	background-position:bottom;
 	animation: disolveRound 20s linear infinite;
 }
 .img2{
