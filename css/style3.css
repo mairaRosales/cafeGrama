@@ -1,0 +1,109 @@
+body{
+	background-image: url(../images/background2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#title{
+	color:white;
+	font-size: 40px;
+	text-align: center;
+	margin:15px;
+	letter-spacing: 5px;
+}
+#menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+	padding: 0px;
+}
+#menu>a{
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	border:2px black solid;
+	padding: 5px;
+	text-align: center;
+	font-size: 19px;
+	border-radius: 2.5px;
+}
+#menu>a:hover{
+	border:2px white solid;
+	color:white;
+}
+.header{
+	color:white;
+	text-align: center;
+	padding:5px;
+	width:50vw;
+	margin:auto;
+	border:black 2px solid;
+	letter-spacing: 15px;
+}
+.content{
+	display: grid;
+	grid-template-columns:1fr 2fr 1fr 2fr;
+	grid-gap:15px;
+	height: 30vh;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.in>p{
+	padding-left:5px;
+	text-indent: 10px;
+	color:white;
+}
+strong{
+	text-decoration: underline;
+}
+#pic1{
+	background-image: url(../images/products/icedcoffee.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#pic2{
+	background-image: url(../images/products/coffeebeans.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+#pic3{
+	background-image: url(../images/products/ICsandwich.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#pic4{
+	background-image: url(../images/products/mangoIC.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#pic5{
+	background-image: url(../images/products/chocomousse.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+#pic6{
+	background-image: url(../images/products/chococrumble.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#pic7{
+	background-image: url(../images/products/cluedo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#pic8{
+	background-image: url(../images/products/DnD.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+#footer{
+	text-align: center;
+	color:white;
+}

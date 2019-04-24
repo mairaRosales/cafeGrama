@@ -1,0 +1,197 @@
+body{
+	background-image: url(../images/background1.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+#title{
+	color:white;
+	font-size: 40px;
+	text-align: center;
+	margin:15px;
+	letter-spacing: 5px;
+}
+#menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+	padding: 0px;
+}
+#menu>a{
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	border:2px black solid;
+	padding: 5px;
+	text-align: center;
+	font-size: 19px;
+	border-radius: 2.5px;
+}
+#menu>a:hover{
+	border:2px white solid;
+	color:white;
+}
+#topfour{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap:20px;
+	height:44vh;
+}
+#topfour>a:hover{
+	border: 2px lightgrey solid;
+}
+.tworows{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap:20px;
+	height: 60vh;
+}
+.size{
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+}
+/*coffeee*/
+.cof1{
+	background-image: url(../images/people/cofhap.jpg);
+}
+.cof2{
+	background-image: url(../images/people/coffeee.jpg);
+}
+.cof3{
+	background-image: url(../images/people/coffeerest.jpg);
+	background-position:center;
+}
+.cof4{
+	background-image: url(../images/people/happy.jpg);
+}
+.cof5{
+	background-image: url(../images/people/together.jpg);
+}
+.cof6{
+	background-image: url(../images/people/coffee1.jpg);
+}
+.cof7{
+	background-image: url(../images/people/coffee2.jpg);
+}
+.cof8{
+	background-image: url(../images/people/coffee3.jpg);
+}
+/*ice cream*/
+.cream1{
+	background-image: url(../images/people/ic1.jpg);
+}
+.cream2{
+	background-image: url(../images/people/ic2.jpg);
+}
+.cream3{
+	background-image: url(../images/people/ic3.jpg);
+}
+.cream4{
+	background-image: url(../images/people/ic4.jpg);
+}
+.cream5{
+	background-image: url(../images/people/ic5.jpg);
+}
+.cream6{
+	background-image: url(../images/people/ic6.jpg);
+}
+.cream7{
+	background-image: url(../images/people/ic7.jpg);
+}
+.cream8{
+	background-image: url(../images/people/ic8.jpg);
+	background-size: cover;
+}
+/*cake*/
+.cake1{
+	background-image: url(../images/people/cake.jpg);
+}
+.cake2{
+	background-image: url(../images/people/cake1.jpg);
+}
+.cake3{
+	background-image: url(../images/people/cake2.jpg);
+}
+.cake4{
+	background-image: url(../images/people/cake3.jpg);
+}
+.cake5{
+	background-image: url(../images/people/cake4.jpg);
+}
+.cake6{
+	background-image: url(../images/people/cake5.jpg);
+}
+.cake7{
+	background-image: url(../images/people/cake6.jpg);
+}
+.cake8{
+	background-image: url(../images/people/cake7.jpg);
+}
+/*board games*/
+.board1{
+	background-image: url(../images/people/BG.jpg);
+}
+.board2{
+	background-image: url(../images/people/BG2.jpg);
+}
+.board3{
+	background-image: url(../images/people/bg3.jpg);
+}
+.board4{
+	background-image: url(../images/people/bg4.jpg);
+}
+.board5{
+	background-image: url(../images/people/bg5.jpeg);
+}
+.board6{
+	background-image: url(../images/people/bg6.jpg);
+}
+.board7{
+	background-image: url(../images/people/bg7.jpg);
+}
+.board8{
+	background-image: url(../images/people/bg8.jpg);
+}
+#coffee{
+	background-image: url(../images/products/coffeeart.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 44vh;
+}
+#iceCream{
+	background-image: url(../images/products/blueberryIC.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 44vh;
+}
+#cake{
+	background-image: url(../images/products/layeredchoco2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 44vh;
+}
+#boardGames{
+	background-image: url(../images/products/chess.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 44vh;
+}
+h3{
+	font-size:20px;
+	color:white;
+	font-weight: bolder;
+	text-align: center;
+	border:2px black solid;
+	padding:10px;
+	letter-spacing:8px;
+}
+
+#footer{
+	text-align: center;
+	color:white;
+}

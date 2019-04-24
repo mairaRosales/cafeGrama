@@ -1,0 +1,186 @@
+body{
+	background-image:url(../images/Untitled.jpg);
+	background-size: cover;
+	background-repeat:repeat;
+}
+.header{
+	display: grid;
+	grid-template-columns: .5fr 4fr;
+	grid-gap: 0px;
+	margin-top:20px;
+}
+#logo{
+	background-image: url(../images/logot.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:16vh;
+}
+#logo:hover{
+	background-image: url(../images/about.png);
+}
+#menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-gap: 25px;
+	padding:7px 15px 0px 15px;
+
+}
+#menu>a{
+	color:white;
+	padding:5px;
+	text-align:center;
+	border:2px black solid;
+	text-decoration: none;
+	list-style: none;
+	font-size: 19px;
+	border-radius: 2.5px;
+}
+#menu>a:hover{
+	color:lightgrey;
+	border:2px white solid;
+}
+#mainPic{
+	height:80vh;
+	margin-top:20px;
+	border-radius:2.5px;
+	overflow: hidden;
+	position:relative;
+}
+.imgg{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+}
+.img1{
+	background-image: url(../images/people/libr.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	animation: disolveRound 20s linear infinite;
+}
+.img2{
+	background-image: url(../images/people/island.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	animation: disolveRound 20s linear infinite 5s;
+}
+.img3{
+	background-image: url(../images/people/untitled.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	animation: disolveRound 20s linear infinite 10s;
+}
+.img4{
+	background-image: url(../images/people/topview.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	animation: disolveRound 20s linear infinite 15s;
+}
+@keyframes disolveRound{
+	0%{
+		opacity: 1;
+	}
+	5%{
+		opacity: 1;
+	}
+	25%{
+		opacity: 1;
+	}
+	30%{
+		opacity: 0;
+		transform: scale(1.1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+.fourbyfour{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 20px;
+	padding: 20px 0px;
+}
+.img{
+	height: 40vh;
+	border-radius: 2%;
+}
+#one{
+	background-image: url(../images/coffee1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center, right;
+}
+#two{
+	background-image: url(../images/iceCream2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:bottom;
+}
+#three{
+	background-image: url(../images/ubecake2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#four{
+	background-image: url(../images/board2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.desc{
+	border-left: 2px black solid;
+	text-indent: 25px;
+	padding:10px;
+	color:white;
+	font-size: 17px;
+}
+#twobox{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 20px;
+	height: 45vh;
+}
+#feedback{
+	padding-top: 15px;
+}
+#feed{
+	color:black;
+	background:white;
+	font-size: 17px;
+	width:99%;
+	height:38vh;
+	border-radius:10px;
+}
+#feedback>form>input{
+	font-size:17px;
+	color:white;
+	letter-spacing: 3px;
+	background:transparent;
+	border:2px black solid;
+	border-radius:5px;
+	float: right;
+}
+#feedback>form>input:hover{
+	color:lightgrey;
+	border:2px white solid;
+}
+#contact{
+	background-image: url(../images/people/sidebarver2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:bottom;
+	border-radius:2.5px;
+	height: 45vh;
+	margin-top:15px;
+}
+#contact:hover{
+	border:2px lightgrey solid;
+}
+#footer{
+	text-align: center;
+	color:white;
+}

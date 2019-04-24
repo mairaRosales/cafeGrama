@@ -1,0 +1,138 @@
+body{
+	background-image:url(../images/background3.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+}
+#title>h3{
+	color:white;
+	font-size: 35px;
+	text-align: center;
+	margin:15px;
+	letter-spacing: 2px;
+}
+#menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 30px;
+	padding: 0px
+}
+#menu>a{
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	border:2px black solid;
+	padding: 5px;
+	text-align: center;
+	font-size: 19px;
+	border-radius: 2.5px;
+}
+#menu>a:hover{
+	border:2px white solid;
+	color:white;
+}
+#location{
+	height:80vh;
+	background-image:url(../images/map.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+#bottom{
+	display: grid;
+	grid-template-columns:.5fr 2fr;
+	grid-gap: 30px;
+	height:42vh;
+	margin-top: 20px;
+}
+#socialMedia{
+	display: grid;
+	grid-template-rows: repeat(4,1fr);
+	grid-gap: 10px;
+	margin:0px;
+	padding:0px;
+	border-left:2px black solid;
+}
+#Social{
+	text-align: center;
+	padding:5px;
+	font-size:23px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	list-style: none;
+	text-decoration:underline;
+}
+#SM{
+	list-style: none;
+	text-decoration: none;
+	text-align: left;
+	color:white;
+	margin-left:50px;
+}
+#img{
+	padding:5px;
+}
+.img{
+	padding:7px;
+}
+.pics{
+	height:42vh;
+	border-radius:2.5px;
+	overflow: hidden;
+	position:relative;
+}
+.imgg{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+}
+.img1{
+	background-image: url(../images/products/cakecollection.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	animation: disolveRound 20s linear infinite;
+}
+.img2{
+	background-image: url(../images/people/island.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	animation: disolveRound 20s linear infinite 5s;
+}
+.img3{
+	background-image: url(../images/people/untitled.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	animation: disolveRound 20s linear infinite 10s;
+}
+.img4{
+	background-image: url(../images/people/topview.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	animation: disolveRound 20s linear infinite 15s;
+}
+@keyframes disolveRound{
+	0%{
+		opacity: 1;
+	}
+	5%{
+		opacity: 1;
+	}
+	25%{
+		opacity: 1;
+	}
+	30%{
+		opacity: 0;
+		transform: scale(1.1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+#footer{
+	text-align: center;
+	color:white;
+}
